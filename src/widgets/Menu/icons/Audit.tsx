@@ -1,10 +1,10 @@
 import React from "react";
 import Svg from "../../../components/Svg/Svg";
-import { SvgProps } from "../../../components/Svg/types";
+import { SvgProps } from "../../../components/Svg";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-      <svg version="1.1" id="Capa_1" {...props}>
+      <Svg version="1.1" id="Capa_1" {...props}>
 <g>
 	<g>
 		<path d="M478.483,273.213l-9.2-12.6c-7.6-10.4-7.7-24.5-0.3-35.1l9-12.7c10.4-14.8,5.6-35.3-10.4-43.9l-13.7-7.4
@@ -52,7 +52,7 @@ const Icon: React.FC<SvgProps> = (props) => {
 </g>
           <g>
 </g>
-</svg>
+</Svg>
   );
 };
 

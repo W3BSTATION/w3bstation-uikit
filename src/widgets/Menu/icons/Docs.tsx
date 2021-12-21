@@ -1,9 +1,9 @@
 import React from "react";
-import { SvgProps } from "../../../components/Svg";
+import {Svg, SvgProps} from "../../../components/Svg";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-	  <svg version="1.1" id="Layer_1" {...props}>
+	  <Svg version="1.1" id="Layer_1" {...props}>
 <g>
 	<g>
 		<path d="M463.996,126.864L340.192,3.061C338.231,1.101,335.574,0,332.803,0H95.726C67.724,0,44.944,22.782,44.944,50.784v410.434
@@ -74,7 +74,7 @@ const Icon: React.FC<SvgProps> = (props) => {
 </g>
 		  <g>
 </g>
-</svg>
+</Svg>
   );
 };
 
